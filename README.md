@@ -9,6 +9,18 @@ An interactive, persona-grounded **Conversational AI Digital Twin** powered by *
 
 This system represents a professional's background, technical skills, opinions, and experience. It answers visitor questions with strict adherence to a source profile, provides live streaming with reasoning/thinking summaries, and executes tool calls to capture visitor contact details.
 
+<p align="center">
+  <img src="assets/demo.gif" alt="Digital Twin Live Demo" width="850">
+</p>
+
+---
+
+## 📸 Interface Preview
+
+| Landing View & Quick Prompts | Live Conversation & Tech Stack |
+| :---: | :---: |
+| <img src="assets/landing_ui.png" alt="Landing View" width="450"> | <img src="assets/chat_preview.png" alt="Chat Preview" width="450"> |
+
 ---
 
 ## ✨ Features
@@ -29,6 +41,10 @@ This system represents a professional's background, technical skills, opinions, 
 
 ```text
 digital_twin/
+├── assets/
+│   ├── demo.gif                    # Live recording of the UI & interaction
+│   ├── landing_ui.png              # Gradio interface landing view
+│   └── chat_preview.png            # Live conversation screenshot
 ├── src/
 │   ├── app.py                      # Streaming agent with tool calling & thinking summaries
 │   ├── main.py                     # Standard Gradio chat interface
@@ -45,7 +61,7 @@ digital_twin/
 │       └── phone.txt               # (Ignored) Saved contact phone numbers
 ├── .env.example                    # Environment variable template
 ├── .gitignore                      # Git ignore rules for logs, secrets, and environments
-├── dev.bat                         # Windows quick-launch script
+├── dev.bat                         # Windows quick-launch script (runs src/app.py)
 ├── pyproject.toml                  # Project metadata and dependencies (PEP 518/621)
 ├── requirements.txt                # Pip requirements lockfile
 └── README.md                       # Project documentation
