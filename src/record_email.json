@@ -1,0 +1,12 @@
+{
+  "type": "function",
+  "name": "record_email",
+  "description": "Use this tool when a user provides an email address, the tool will save it to a file called email.txt in the src/data directory.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "email": { "type": "string", "description": "Email address of the User" }
+    },
+    "required": ["email"]
+  }
+}

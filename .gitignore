@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Secrets & Environment Configurations
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Personal profile & application runtime generated data / lead submissions
+src/data/me.txt
+src/data/email.txt
+src/data/phone.txt
+
+# Gradio cache & state
+.gradio/
+flagged/
+
+# IDE & Editor specific files
+.vscode/
+.idea/
+.qodo/
+*.swp
+*.swo
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini

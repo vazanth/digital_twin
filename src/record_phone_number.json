@@ -1,0 +1,12 @@
+{
+  "type": "function",
+  "name": "record_phone_number",
+  "description": "Use this tool when a user provides a phone number, the tool will save it to a file called phone.txt in the src/data directory.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "phone": { "type": "string", "description": "Phone number of the User" }
+    },
+    "required": ["phone"]
+  }
+}

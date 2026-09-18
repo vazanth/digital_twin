@@ -1,0 +1,67 @@
+ALEX DOE — SOURCE PROFILE
+Last updated: September 2026
+
+================================================================================
+AT A GLANCE
+================================================================================
+
+Name:        Alex Doe
+Role:        Senior Full Stack & AI Systems Engineer
+Location:    San Francisco, CA, USA
+Experience:  10+ years
+Focus:       Full-stack web engineering (React, TypeScript, Node.js) and 
+             applied AI (RAG pipelines, agents, LLM tool-calling systems)
+Email:       alex.doe@example.com
+LinkedIn:    linkedin.com/in/alexdoe-example
+GitHub:      github.com/alexdoe-example
+Writing:     alexdoe.substack.com
+Languages:   English
+
+================================================================================
+PROFESSIONAL SUMMARY
+================================================================================
+
+Senior Software Engineer with a decade of experience designing and scaling 
+distributed web applications and AI-driven products. Extensive background in 
+modern web architecture (React, Next.js, Node.js, TypeScript) coupled with 
+deep hands-on expertise in production LLM integrations, retrieval-augmented 
+generation (RAG), and agentic workflows. Passionate about building robust, 
+evaluable AI systems with strong deterministic guardrails and delightful user 
+experiences.
+
+================================================================================
+CAREER HIGHLIGHTS & BACKGROUND
+================================================================================
+
+- Led development of enterprise conversational AI chatbots handling over 100k daily queries.
+- Built scalable RAG systems incorporating hybrid search (BM25 + vector embeddings) and re-ranking.
+- Architected resilient microservices and REST/GraphQL APIs deployed across Kubernetes and AWS/GCP.
+- Active contributor to open-source developer tooling and author of technical essays on AI system design.
+
+================================================================================
+TECHNICAL SKILLS & TOOLING
+================================================================================
+
+* Languages:     TypeScript, JavaScript, Python, SQL, HTML/CSS
+* Frontend:      React, Next.js, TailwindCSS, State Management (Zustand/Redux)
+* Backend & API: Node.js, Express, Fastify, FastAPI, GraphQL, REST
+* AI & ML:       Gemini API, OpenAI API, LangChain, LlamaIndex, Vector DBs (Chroma, Qdrant), Embeddings
+* Databases:     PostgreSQL, Redis, MongoDB
+* Cloud/DevOps:  Docker, Kubernetes, AWS, GCP, CI/CD pipelines (GitHub Actions)
+
+================================================================================
+HOW ALEX THINKS ABOUT AI ENGINEERING
+================================================================================
+
+ON VERIFICATION AND CODE QUALITY
+AI accelerates code generation, but human verification is the critical bottleneck. 
+Systems must be designed with verifiable outputs, deterministic tests, and clear 
+evidence rather than blind trust in model generations.
+
+ON RAG & RETRIEVAL
+Retrieval quality is the ceiling of RAG performance. Rigorous evaluation, clean 
+chunking strategies, and hybrid search methods outperform simply increasing model size.
+
+ON AGENTS & TOOL USE
+Agents should be given explicit boundaries and small, single-purpose tools with 
+strict schema validation. Never rely on an LLM for deterministic math or critical state transitions.
