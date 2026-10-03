@@ -8,7 +8,7 @@ def get_background(topic: str) -> str:
         topic: The topic to look up (e.g. 'experience', 'skills', 'projects', 'writing', 'rates', 'substack')
     """
 
-    PROJECT_ROOT = Path(__file__).resolve().parents[1]
+    PROJECT_ROOT = Path(__file__).resolve().parents[2]
     ME_FILE = PROJECT_ROOT / "data" / "me.txt"
 
     if not ME_FILE.exists():
