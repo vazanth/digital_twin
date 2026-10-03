@@ -33,6 +33,7 @@ token.json
 data/me.txt
 data/email.txt
 data/phone.txt
+inquiry.jsonl
 
 # Gradio cache & state
 .gradio/
