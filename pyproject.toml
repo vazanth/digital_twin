@@ -5,8 +5,14 @@ description = "Conversational AI Digital Twin powered by Google Gemini 2.5 and G
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "email-validator>=2.3.0",
+    "google-api-python-client>=2.200.0",
+    "google-auth-httplib2>=0.4.2",
+    "google-auth-oauthlib>=1.4.1",
     "google-genai>=2.21.0",
     "gradio>=6.26.0",
+    "litellm>=1.102.1",
     "pydantic>=2.13.5",
     "python-dotenv>=1.2.3",
+    "rich>=15.0.0",
 ]

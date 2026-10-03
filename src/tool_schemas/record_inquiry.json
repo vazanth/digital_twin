@@ -1,0 +1,33 @@
+{
+  "type": "function",
+  "name": "record_inquiry",
+  "description": "Save an inquiry from someone who wants to hire, contract, or collaborate.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "inquiry_data": {
+        "type": "object",
+        "description": "The inquiry details",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The sender's name"
+          },
+          "email": {
+            "type": "string",
+            "description": "The sender's email address"
+          },
+          "subject": {
+            "type": "string",
+            "description": "What the sender email subject line is"
+          },
+          "message": {
+            "type": "string",
+            "description": "What the sender wants, in their own words"
+          }
+        },
+        "required": ["name", "email", "subject", "message"]
+      }
+    }
+  }
+}

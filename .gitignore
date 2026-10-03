@@ -26,11 +26,13 @@ wheels/
 .env.*.local
 *.pem
 *.key
+credentials.json
+token.json
 
 # Personal profile & application runtime generated data / lead submissions
-src/data/me.txt
-src/data/email.txt
-src/data/phone.txt
+data/me.txt
+data/email.txt
+data/phone.txt
 
 # Gradio cache & state
 .gradio/
